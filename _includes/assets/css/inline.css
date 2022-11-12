@@ -21,13 +21,14 @@
   --size-800: 2.0rem;
   --size-900: 2.5rem;
   --primary: black;
-  --secondary: #00A3E6;
+  --secondary: #00E3A6;
 }
 
 
 
 a:not([class]) {
-  color: currentColor;
+  text-decoration: none;
+  border-bottom: 1px solid #00E3A6;
 }
 
 :focus {
