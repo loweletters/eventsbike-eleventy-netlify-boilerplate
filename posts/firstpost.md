@@ -12,6 +12,14 @@ tags:
   - politics
   - sport
 ---
+<div class="details">
+          		 <hr /><mono>MONTH - January</mono>
+				 <hr /><mono>LOCATION - England</mono>
+				 <hr /><mono>DURATION - 2 Hours</mono>
+				 <hr /><mono>COST - free thank goodness</mono>
+				 <hr />
+			 </div>
+
 
  <div class="switcher">
         <!-- intermediary wrapper -->
