@@ -24,7 +24,18 @@
   --secondary: #00E3A6;
 }
 
-
+/* Details Box
+-----------------------------------------------------------------------*/
+.details {
+  display: block;
+  max-width: 25rem;
+  padding: var(--padding);
+  border-width: var(--border-thick);
+  border: var(--border-thick) solid;
+  /* ↓ For high contrast mode */
+  outline: var(--border-thick) solid transparent;
+  outline-offset: calc(var(--border-thick) * -1);
+}
 
 a:not([class]) {
   color: #000
@@ -42,7 +53,7 @@ main:focus {
 }
 
 
-[href]:hover {
+[href]:hover 
   color: #000;
   text-decoration: none;
   border-bottom: 1px solid #00E3A6;
